@@ -43,6 +43,9 @@ class PathItem extends FieldItemBase {
     return array();
   }
 
+// the path module  implements hook_entity_base_field_info(), it has this code  : setCustomStorage(TRUE), but I don't find the code handling its storage. can anybody give me a clue?
+// this is where.
+
   /**
    * {@inheritdoc}
    */
